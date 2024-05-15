@@ -1,0 +1,52 @@
+{"level":30,"time":"2024-05-15T08:21:58.956Z","pid":67782,"hostname":"Dung","msg":"Listening on 57609"}
+(node:67782) DeprecationWarning: Calling start() is no longer necessary. It can be safely omitted.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+{"level":30,"time":"2024-05-15T08:21:58.970Z","pid":67782,"hostname":"Dung","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-05-15T08:21:58.970Z","pid":67782,"hostname":"Dung","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-05-15T08:21:58.973Z","pid":67782,"hostname":"Dung","msg":"Start of node method newPage"}
+{"level":30,"time":"2024-05-15T08:21:58.973Z","pid":67782,"hostname":"Dung","msg":"currentBrowser: undefined"}
+{"level":30,"time":"2024-05-15T08:21:59.141Z","pid":67782,"hostname":"Dung","msg":"Changed active context"}
+{"level":30,"time":"2024-05-15T08:21:59.164Z","pid":67782,"hostname":"Dung","msg":"Video path: undefined"}
+{"level":30,"time":"2024-05-15T08:21:59.164Z","pid":67782,"hostname":"Dung","msg":"Changed active page"}
+{"level":30,"time":"2024-05-15T08:21:59.859Z","pid":67782,"hostname":"Dung","msg":"End of node method newPage"}
+{"level":30,"time":"2024-05-15T08:21:59.864Z","pid":67782,"hostname":"Dung","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-05-15T08:21:59.876Z","pid":67782,"hostname":"Dung","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-05-15T08:22:00.904Z","pid":67782,"hostname":"Dung","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2024-05-15T08:22:00.904Z","pid":67782,"hostname":"Dung","Take screenshot with options: ":{"path":"/mnt/d/Projects/robot-framework/browser/screenshot/fail-screenshot-1.png","fileType":"png","fullPage":false,"timeout":10000,"omitBackground":false}}
+{"level":30,"time":"2024-05-15T08:22:00.982Z","pid":67782,"hostname":"Dung","msg":"End of node method takeScreenshot"}
+{"level":30,"time":"2024-05-15T08:22:00.988Z","pid":67782,"hostname":"Dung","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-05-15T08:22:00.989Z","pid":67782,"hostname":"Dung","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-05-15T08:22:00.991Z","pid":67782,"hostname":"Dung","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-05-15T08:22:00.992Z","pid":67782,"hostname":"Dung","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-05-15T08:22:00.995Z","pid":67782,"hostname":"Dung","msg":"Start of node method getByX"}
+{"level":30,"time":"2024-05-15T08:22:01.017Z","pid":67782,"hostname":"Dung","msg":"End of node method getByX"}
+{"level":30,"time":"2024-05-15T08:22:01.021Z","pid":67782,"hostname":"Dung","msg":"Start of node method click"}
+{"level":30,"time":"2024-05-15T08:22:01.021Z","pid":67782,"hostname":"Dung","msg":"Strict mode is enabled, find Locator with internal:role=link[name=\"Get started\"i] in page."}
+{"level":30,"time":"2024-05-15T08:22:01.089Z","pid":67782,"hostname":"Dung","msg":"End of node method click"}
+{"level":30,"time":"2024-05-15T08:22:01.091Z","pid":67782,"hostname":"Dung","msg":"Start of node method getByX"}
+{"level":30,"time":"2024-05-15T08:22:01.252Z","pid":67782,"hostname":"Dung","msg":"End of node method getByX"}
+{"level":30,"time":"2024-05-15T08:22:01.256Z","pid":67782,"hostname":"Dung","msg":"Start of node method getElementStates"}
+{"level":30,"time":"2024-05-15T08:22:01.257Z","pid":67782,"hostname":"Dung","msg":"Strict mode is enabled, find Locator with internal:role=heading[name=\"Installation\"i] in page."}
+{"level":30,"time":"2024-05-15T08:22:01.357Z","pid":67782,"hostname":"Dung","msg":"End of node method getElementStates"}
+{"level":30,"time":"2024-05-15T08:22:01.361Z","pid":67782,"hostname":"Dung","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-05-15T08:22:01.362Z","pid":67782,"hostname":"Dung","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-05-15T08:22:01.365Z","pid":67782,"hostname":"Dung","msg":"Start of node method closeBrowser"}
+{"level":30,"time":"2024-05-15T08:22:01.368Z","pid":67782,"hostname":"Dung","msg":"Removed page=bb293f97-44a3-4448-a216-cadace27e164 from context=96b733e8-bb03-45e1-ab7e-6290c2923e63 page stack"}
+{"level":30,"time":"2024-05-15T08:22:01.449Z","pid":67782,"hostname":"Dung","msg":"End of node method closeBrowser"}
+================= Original suppressed error =================
+Error: Browser has been closed.
+    at PlaywrightState.getActiveBrowser (/home/phamtrungdung/.local/lib/python3.10/site-packages/Browser/wrapper/index.js:10068:15)
+    at PlaywrightServer.getActiveBrowser (/home/phamtrungdung/.local/lib/python3.10/site-packages/Browser/wrapper/index.js:10693:59)
+    at PlaywrightServer.setTimeout (/home/phamtrungdung/.local/lib/python3.10/site-packages/Browser/wrapper/index.js:10943:57)
+    at Object.onReceiveHalfClose (/home/phamtrungdung/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:1273:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (/home/phamtrungdung/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:534:31)
+    at BaseServerInterceptingCall.handleEndEvent (/home/phamtrungdung/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:576:14)
+    at ServerHttp2Stream.<anonymous> (/home/phamtrungdung/.local/lib/python3.10/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:376:18)
+    at ServerHttp2Stream.emit (node:events:525:35)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+=============================================================
+{"level":30,"time":"2024-05-15T08:22:01.456Z","pid":67782,"hostname":"Dung","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-05-15T08:22:01.457Z","pid":67782,"hostname":"Dung","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-05-15T08:22:01.489Z","pid":67782,"hostname":"Dung","msg":"Start of node method closeAllBrowsers"}
+{"level":30,"time":"2024-05-15T08:22:01.490Z","pid":67782,"hostname":"Dung","msg":"End of node method closeAllBrowsers"}
