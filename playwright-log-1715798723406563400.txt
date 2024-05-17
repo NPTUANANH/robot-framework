@@ -1,0 +1,74 @@
+{"level":30,"time":"2024-05-15T18:45:23.955Z","pid":10936,"hostname":"DESKTOP-NPTA","msg":"Listening on 49612"}
+(node:10936) DeprecationWarning: Calling start() is no longer necessary. It can be safely omitted.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+{"level":30,"time":"2024-05-15T18:45:24.066Z","pid":10936,"hostname":"DESKTOP-NPTA","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-05-15T18:45:24.067Z","pid":10936,"hostname":"DESKTOP-NPTA","msg":"End of node method getBrowserCatalog"}
+================= Original suppressed error =================
+Error: Browser has been closed.
+    at PlaywrightState.getActiveBrowser (C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js:10068:15)
+    at PlaywrightServer.getActiveBrowser (C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js:10693:59)
+    at PlaywrightServer.setTimeout (C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js:10943:57)
+    at Object.onReceiveHalfClose (C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1273:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:534:31)
+    at BaseServerInterceptingCall.handleEndEvent (C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:576:14)
+    at ServerHttp2Stream.<anonymous> (C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:376:18)
+    at ServerHttp2Stream.emit (node:events:525:35)
+    at endReadableNT (node:internal/streams/readable:1358:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+=============================================================
+{"level":30,"time":"2024-05-15T18:45:24.100Z","pid":10936,"hostname":"DESKTOP-NPTA","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2024-05-15T18:45:24.341Z","pid":10936,"hostname":"DESKTOP-NPTA","msg":"Adding browser to stack: chromium, version: 124.0.6367.29"}
+{"level":30,"time":"2024-05-15T18:45:24.341Z","pid":10936,"hostname":"DESKTOP-NPTA","msg":"End of node method newBrowser"}
+{"level":30,"time":"2024-05-15T18:45:24.341Z","pid":10936,"hostname":"DESKTOP-NPTA","msg":"Adding 0 contexts to browser"}
+{"level":30,"time":"2024-05-15T18:45:24.348Z","pid":10936,"hostname":"DESKTOP-NPTA","msg":"Start of node method newPage"}
+{"level":30,"time":"2024-05-15T18:45:24.349Z","pid":10936,"hostname":"DESKTOP-NPTA","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2024-05-15T18:45:24.364Z","pid":10936,"hostname":"DESKTOP-NPTA","msg":"Changed active context"}
+{"level":30,"time":"2024-05-15T18:45:24.692Z","pid":10936,"hostname":"DESKTOP-NPTA","msg":"Video path: undefined"}
+{"level":30,"time":"2024-05-15T18:45:24.692Z","pid":10936,"hostname":"DESKTOP-NPTA","msg":"Changed active page"}
+{"level":30,"time":"2024-05-15T18:45:25.084Z","pid":10936,"hostname":"DESKTOP-NPTA","msg":"Error of node method  newPage"}
+================= Original suppressed error =================
+page.goto: net::ERR_ABORTED; maybe frame was detached?
+Call log:
+  [2m- navigating to "https://incomeinsights.development.demo.verifier.me/?accessCode=FD6464&tusid=000008&intro=true", waiting until "networkidle"[22m
+
+    at newPage (C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js:10372:18)
+    at async PlaywrightServer.newPage (C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js:10708:28) {
+  name: 'Error'
+}
+=============================================================
+{"level":30,"time":"2024-05-15T18:45:25.116Z","pid":10936,"hostname":"DESKTOP-NPTA","msg":"Start of node method takeScreenshot"}
+================= Original suppressed error =================
+Error: Tried to take screenshot, but no page was open.
+    at exists (C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js:8714:11)
+    at takeScreenshot (C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js:8758:3)
+    at PlaywrightServer.takeScreenshot (C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js:10708:34)
+    at Object.onReceiveHalfClose (C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1273:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:534:31)
+    at BaseServerInterceptingCall.handleEndEvent (C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:576:14)
+    at ServerHttp2Stream.<anonymous> (C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:376:18)
+    at ServerHttp2Stream.emit (node:events:525:35)
+    at endReadableNT (node:internal/streams/readable:1358:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+=============================================================
+{"level":30,"time":"2024-05-15T18:45:25.117Z","pid":10936,"hostname":"DESKTOP-NPTA","msg":"Error of node method  takeScreenshot"}
+{"level":30,"time":"2024-05-15T18:45:25.158Z","pid":10936,"hostname":"DESKTOP-NPTA","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-05-15T18:45:25.158Z","pid":10936,"hostname":"DESKTOP-NPTA","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-05-15T18:45:25.166Z","pid":10936,"hostname":"DESKTOP-NPTA","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-05-15T18:45:25.166Z","pid":10936,"hostname":"DESKTOP-NPTA","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-05-15T18:45:25.173Z","pid":10936,"hostname":"DESKTOP-NPTA","msg":"Start of node method closeBrowser"}
+{"level":30,"time":"2024-05-15T18:45:25.174Z","pid":10936,"hostname":"DESKTOP-NPTA","msg":"End of node method closeBrowser"}
+================= Original suppressed error =================
+Error: Browser has been closed.
+    at PlaywrightState.getActiveBrowser (C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js:10068:15)
+    at PlaywrightServer.getActiveBrowser (C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js:10693:59)
+    at PlaywrightServer.setTimeout (C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js:10943:57)
+    at Object.onReceiveHalfClose (C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1273:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:534:31)
+    at BaseServerInterceptingCall.handleEndEvent (C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:576:14)
+    at ServerHttp2Stream.<anonymous> (C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:376:18)
+    at ServerHttp2Stream.emit (node:events:525:35)
+    at endReadableNT (node:internal/streams/readable:1358:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+=============================================================
+{"level":30,"time":"2024-05-15T18:45:25.205Z","pid":10936,"hostname":"DESKTOP-NPTA","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-05-15T18:45:25.206Z","pid":10936,"hostname":"DESKTOP-NPTA","msg":"End of node method getBrowserCatalog"}

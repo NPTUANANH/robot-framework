@@ -1,0 +1,96 @@
+{"level":30,"time":"2024-05-15T18:45:50.992Z","pid":19344,"hostname":"DESKTOP-NPTA","msg":"Listening on 49650"}
+(node:19344) DeprecationWarning: Calling start() is no longer necessary. It can be safely omitted.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+{"level":30,"time":"2024-05-15T18:45:51.114Z","pid":19344,"hostname":"DESKTOP-NPTA","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-05-15T18:45:51.114Z","pid":19344,"hostname":"DESKTOP-NPTA","msg":"End of node method getBrowserCatalog"}
+================= Original suppressed error =================
+Error: Browser has been closed.
+    at PlaywrightState.getActiveBrowser (C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js:10068:15)
+    at PlaywrightServer.getActiveBrowser (C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js:10693:59)
+    at PlaywrightServer.setTimeout (C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js:10943:57)
+    at Object.onReceiveHalfClose (C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1273:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:534:31)
+    at BaseServerInterceptingCall.handleEndEvent (C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:576:14)
+    at ServerHttp2Stream.<anonymous> (C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:376:18)
+    at ServerHttp2Stream.emit (node:events:525:35)
+    at endReadableNT (node:internal/streams/readable:1358:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+=============================================================
+{"level":30,"time":"2024-05-15T18:45:51.149Z","pid":19344,"hostname":"DESKTOP-NPTA","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2024-05-15T18:45:51.397Z","pid":19344,"hostname":"DESKTOP-NPTA","msg":"Adding browser to stack: chromium, version: 124.0.6367.29"}
+{"level":30,"time":"2024-05-15T18:45:51.397Z","pid":19344,"hostname":"DESKTOP-NPTA","msg":"End of node method newBrowser"}
+{"level":30,"time":"2024-05-15T18:45:51.397Z","pid":19344,"hostname":"DESKTOP-NPTA","msg":"Adding 0 contexts to browser"}
+{"level":30,"time":"2024-05-15T18:45:51.404Z","pid":19344,"hostname":"DESKTOP-NPTA","msg":"Start of node method newPage"}
+{"level":30,"time":"2024-05-15T18:45:51.405Z","pid":19344,"hostname":"DESKTOP-NPTA","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2024-05-15T18:45:51.418Z","pid":19344,"hostname":"DESKTOP-NPTA","msg":"Changed active context"}
+{"level":30,"time":"2024-05-15T18:45:51.673Z","pid":19344,"hostname":"DESKTOP-NPTA","msg":"Video path: undefined"}
+{"level":30,"time":"2024-05-15T18:45:51.673Z","pid":19344,"hostname":"DESKTOP-NPTA","msg":"Changed active page"}
+{"level":30,"time":"2024-05-15T18:46:05.211Z","pid":19344,"hostname":"DESKTOP-NPTA","msg":"End of node method newPage"}
+{"level":30,"time":"2024-05-15T18:46:05.216Z","pid":19344,"hostname":"DESKTOP-NPTA","msg":"Start of node method newPage"}
+{"level":30,"time":"2024-05-15T18:46:05.216Z","pid":19344,"hostname":"DESKTOP-NPTA","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2024-05-15T18:46:05.256Z","pid":19344,"hostname":"DESKTOP-NPTA","msg":"Video path: undefined"}
+{"level":30,"time":"2024-05-15T18:46:05.256Z","pid":19344,"hostname":"DESKTOP-NPTA","msg":"Changed active page"}
+{"level":30,"time":"2024-05-15T18:46:06.598Z","pid":19344,"hostname":"DESKTOP-NPTA","msg":"End of node method newPage"}
+{"level":30,"time":"2024-05-15T18:46:06.602Z","pid":19344,"hostname":"DESKTOP-NPTA","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-05-15T18:46:06.612Z","pid":19344,"hostname":"DESKTOP-NPTA","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-05-15T18:46:06.615Z","pid":19344,"hostname":"DESKTOP-NPTA","msg":"Changing current active page: page=5e9416ff-332f-482f-8d29-2400855862ea"}
+{"level":30,"time":"2024-05-15T18:46:06.615Z","pid":19344,"hostname":"DESKTOP-NPTA","msg":"Changed active page"}
+{"level":30,"time":"2024-05-15T18:46:06.633Z","pid":19344,"hostname":"DESKTOP-NPTA","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-05-15T18:46:06.636Z","pid":19344,"hostname":"DESKTOP-NPTA","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-05-15T18:46:06.641Z","pid":19344,"hostname":"DESKTOP-NPTA","msg":"Start of node method fillText"}
+{"level":30,"time":"2024-05-15T18:46:06.641Z","pid":19344,"hostname":"DESKTOP-NPTA","msg":"Strict mode is enabled, find Locator with css=input[id=\"email\"] in page."}
+{"level":30,"time":"2024-05-15T18:46:06.691Z","pid":19344,"hostname":"DESKTOP-NPTA","msg":"End of node method fillText"}
+{"level":30,"time":"2024-05-15T18:46:06.697Z","pid":19344,"hostname":"DESKTOP-NPTA","msg":"Start of node method click"}
+{"level":30,"time":"2024-05-15T18:46:06.697Z","pid":19344,"hostname":"DESKTOP-NPTA","msg":"Strict mode is enabled, find Locator with id=fnfLogin-sendCode-button in page."}
+{"level":30,"time":"2024-05-15T18:46:06.748Z","pid":19344,"hostname":"DESKTOP-NPTA","msg":"End of node method click"}
+{"level":30,"time":"2024-05-15T18:46:06.754Z","pid":19344,"hostname":"DESKTOP-NPTA","msg":"Start of node method WaitForPageLoadState"}
+{"level":30,"time":"2024-05-15T18:46:06.754Z","pid":19344,"hostname":"DESKTOP-NPTA","msg":"timeout: 10000 state: networkidle"}
+{"level":30,"time":"2024-05-15T18:46:06.757Z","pid":19344,"hostname":"DESKTOP-NPTA","msg":"End of node method WaitForPageLoadState"}
+{"level":30,"time":"2024-05-15T18:46:09.763Z","pid":19344,"hostname":"DESKTOP-NPTA","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-05-15T18:46:09.765Z","pid":19344,"hostname":"DESKTOP-NPTA","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-05-15T18:46:09.767Z","pid":19344,"hostname":"DESKTOP-NPTA","msg":"Changing current active page: page=a94689e7-fdc7-4b95-9ef4-4798535cdb2f"}
+{"level":30,"time":"2024-05-15T18:46:09.767Z","pid":19344,"hostname":"DESKTOP-NPTA","msg":"Changed active page"}
+{"level":30,"time":"2024-05-15T18:46:09.781Z","pid":19344,"hostname":"DESKTOP-NPTA","msg":"Start of node method click"}
+{"level":30,"time":"2024-05-15T18:46:09.781Z","pid":19344,"hostname":"DESKTOP-NPTA","msg":"Strict mode is enabled, find Locator with xpath=/html/body/div/div[1]/div[2]/ul/li[1]/a in page."}
+{"level":30,"time":"2024-05-15T18:46:09.857Z","pid":19344,"hostname":"DESKTOP-NPTA","msg":"End of node method click"}
+{"level":30,"time":"2024-05-15T18:46:09.861Z","pid":19344,"hostname":"DESKTOP-NPTA","msg":"Start of node method getText"}
+{"level":30,"time":"2024-05-15T18:46:09.861Z","pid":19344,"hostname":"DESKTOP-NPTA","msg":"Strict mode is enabled, find Locator with xpath=/html/body/div/div[3]/table/tbody/tr/td/div/table/tbody/tr[3]/td/table/tbody/tr/td/p/strong in page."}
+{"level":50,"time":"2024-05-15T18:46:19.870Z","pid":19344,"hostname":"DESKTOP-NPTA","err":{"type":"TimeoutError","message":"locator.elementHandle: Timeout 10000ms exceeded.\nCall log:\n  \u001b[2m- waiting for locator('xpath=/html/body/div/div[3]/table/tbody/tr/td/div/table/tbody/tr[3]/td/table/tbody/tr/td/p/strong')\u001b[22m\n","stack":"locator.elementHandle: Timeout 10000ms exceeded.\nCall log:\n  \u001b[2m- waiting for locator('xpath=/html/body/div/div[3]/table/tbody/tr/td/div/table/tbody/tr[3]/td/table/tbody/tr/td/p/strong')\u001b[22m\n\n    at getTextContent (C:\\Users\\ADMIN\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\Browser\\wrapper\\index.js:9466:33)\n    at getText (C:\\Users\\ADMIN\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\Browser\\wrapper\\index.js:9480:21)\n    at async PlaywrightServer.getText (C:\\Users\\ADMIN\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\Browser\\wrapper\\index.js:10708:28)","name":"TimeoutError"},"msg":"locator.elementHandle: Timeout 10000ms exceeded.\nCall log:\n  \u001b[2m- waiting for locator('xpath=/html/body/div/div[3]/table/tbody/tr/td/div/table/tbody/tr[3]/td/table/tbody/tr/td/p/strong')\u001b[22m\n"}
+{"level":30,"time":"2024-05-15T18:46:19.870Z","pid":19344,"hostname":"DESKTOP-NPTA","msg":"Error of node method  getText"}
+================= Original suppressed error =================
+locator.elementHandle: Timeout 10000ms exceeded.
+Call log:
+  [2m- waiting for locator('xpath=/html/body/div/div[3]/table/tbody/tr/td/div/table/tbody/tr[3]/td/table/tbody/tr/td/p/strong')[22m
+
+    at getTextContent (C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js:9466:33)
+    at getText (C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js:9480:21)
+    at async PlaywrightServer.getText (C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js:10708:28) {
+  name: 'TimeoutError'
+}
+=============================================================
+{"level":30,"time":"2024-05-15T18:46:19.892Z","pid":19344,"hostname":"DESKTOP-NPTA","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2024-05-15T18:46:19.893Z","pid":19344,"hostname":"DESKTOP-NPTA","Take screenshot with options: ":{"path":"f:\\robottest\\robot-framework\\browser\\screenshot\\fail-screenshot-1.png","fileType":"png","fullPage":false,"timeout":10000,"omitBackground":false}}
+{"level":30,"time":"2024-05-15T18:46:20.004Z","pid":19344,"hostname":"DESKTOP-NPTA","msg":"End of node method takeScreenshot"}
+{"level":30,"time":"2024-05-15T18:46:20.016Z","pid":19344,"hostname":"DESKTOP-NPTA","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-05-15T18:46:20.018Z","pid":19344,"hostname":"DESKTOP-NPTA","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-05-15T18:46:20.023Z","pid":19344,"hostname":"DESKTOP-NPTA","msg":"Start of node method closeBrowser"}
+{"level":30,"time":"2024-05-15T18:46:20.033Z","pid":19344,"hostname":"DESKTOP-NPTA","msg":"Removed page=1e22c075-c113-4a0f-8487-5a8507b3409f from context=8980da8b-f816-4794-aafe-49a6e6d56c7e page stack"}
+{"level":30,"time":"2024-05-15T18:46:20.037Z","pid":19344,"hostname":"DESKTOP-NPTA","msg":"Removed page=1c94f5d8-f9fa-40f7-a910-8e9c0e2cc2bf from context=8980da8b-f816-4794-aafe-49a6e6d56c7e page stack"}
+{"level":30,"time":"2024-05-15T18:46:20.263Z","pid":19344,"hostname":"DESKTOP-NPTA","msg":"End of node method closeBrowser"}
+================= Original suppressed error =================
+Error: Browser has been closed.
+    at PlaywrightState.getActiveBrowser (C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js:10068:15)
+    at PlaywrightServer.getActiveBrowser (C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js:10693:59)
+    at PlaywrightServer.setTimeout (C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js:10943:57)
+    at Object.onReceiveHalfClose (C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1273:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:534:31)
+    at BaseServerInterceptingCall.handleEndEvent (C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:576:14)
+    at ServerHttp2Stream.<anonymous> (C:\Users\ADMIN\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:376:18)
+    at ServerHttp2Stream.emit (node:events:525:35)
+    at endReadableNT (node:internal/streams/readable:1358:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+=============================================================
+{"level":30,"time":"2024-05-15T18:46:20.294Z","pid":19344,"hostname":"DESKTOP-NPTA","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-05-15T18:46:20.294Z","pid":19344,"hostname":"DESKTOP-NPTA","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-05-15T18:46:22.334Z","pid":19344,"hostname":"DESKTOP-NPTA","msg":"Start of node method closeAllBrowsers"}
+{"level":30,"time":"2024-05-15T18:46:22.334Z","pid":19344,"hostname":"DESKTOP-NPTA","msg":"End of node method closeAllBrowsers"}
